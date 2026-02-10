@@ -4,7 +4,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 # Cấu hình lấy từ Vercel Dashboard
-GITHUB_TOKEN = os.environ.get("GH_TOKEN") 
+GITHUB_TOKEN = os.environ.get("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") 
 REPO = "nguyentuankhanh01022012-cloud/KeySystem"
 
 def generate_key():
