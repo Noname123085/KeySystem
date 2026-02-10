@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Cấu hình lấy từ Vercel Dashboard
 GITHUB_TOKEN = os.environ.get("GH_TOKEN") 
-REPO = "nguyentuankhanh01022012-cloud/KeySystem"
+REPO = "Noname123085/KeySystem"
 
 def generate_key():
     return "FREE-" + ''.join(random.choices(string.ascii_uppercase + string.digits, k=16))
